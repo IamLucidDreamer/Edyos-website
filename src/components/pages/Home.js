@@ -1,8 +1,15 @@
 import React from "react";
 import heroImage from "../../assets/png/heroImage.png";
 import { Button } from "@mui/material";
+// Icons Import
 import InfoIcon from "@mui/icons-material/Info";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import ClassIcon from "@mui/icons-material/Class";
+import CelebrationIcon from "@mui/icons-material/Celebration";
+import SchoolIcon from "@mui/icons-material/School";
+import QuizIcon from "@mui/icons-material/Quiz";
+import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
+import AssignmentIcon from "@mui/icons-material/Assignment";
 
 const Home = () => {
   return (
@@ -174,7 +181,8 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="mt-48 md:mt-0 pb-40 relative bg-white">
+      {/* Section 3 */}
+      <section className="mt-48 md:mt-0 pb-24 relative bg-white">
         <div
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
           style={{ transform: "translateZ(0)" }}
@@ -236,7 +244,6 @@ const Home = () => {
               </div>
               <a
                 href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=nr-index"
-                target="_blank"
                 className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150 flex items-center"
               >
                 View All{" "}
@@ -258,95 +265,72 @@ const Home = () => {
             <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
               <div className="justify-center flex flex-wrap relative">
                 <div className="my-4 w-full lg:w-6/12 px-4">
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
-                    <div className="bg-red-600 shadow-lg rounded-lg text-center p-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/svelte.jpg"
+                  <a href="www.edyos.com">
+                    <div className="bg-rose-500 shadow-lg rounded-lg text-center p-8">
+                      <ClassIcon
+                        className="text-rose-500 shadow-md rounded-full max-w-full mx-auto p-2 bg-white"
+                        style={{ fontSize: "50px" }}
                       />
+
                       <p className="text-lg text-white mt-4 font-semibold">
-                        Svelte
+                        Class Management
                       </p>
                     </div>
                   </a>
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
-                    <div className="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/react.jpg"
+                  <a href="www.edyos.com">
+                    <div className="bg-primary2 shadow-lg rounded-lg text-center p-8 mt-8">
+                      <SchoolIcon
+                        className="text-primary2 shadow-md rounded-full max-w-full mx-auto p-2 bg-white"
+                        style={{ fontSize: "50px" }}
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
-                        ReactJS
+                        Student Management
                       </p>
                     </div>
                   </a>
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
-                    <div className="bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/nextjs.jpg"
+                  <a href="www.edyos.com">
+                    <div className="bg-primary4 shadow-lg rounded-lg text-center p-8 mt-8">
+                      <AttachMoneyIcon
+                        className="text-primary4 shadow-md rounded-full max-w-full mx-auto p-2 bg-white"
+                        style={{ fontSize: "50px" }}
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
-                        NextJS
+                        Finance Management
                       </p>
                     </div>
                   </a>
                 </div>
                 <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
-                    <div className="bg-yellow-500 shadow-lg rounded-lg text-center p-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/js.png"
+                  <a href="www.edyos.com">
+                    <div className="bg-primary3 shadow-lg rounded-lg text-center p-8">
+                      <CelebrationIcon
+                        className="text-primary3 shadow-md rounded-full max-w-full mx-auto p-2 bg-white"
+                        style={{ fontSize: "50px" }}
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
-                        JavaScript
+                        Activity Management
                       </p>
                     </div>
                   </a>
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
-                    <div className="bg-red-700 shadow-lg rounded-lg text-center p-8 mt-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
+                  <a href="www.edyos.com">
+                    <div className="bg-primary1 shadow-lg rounded-lg text-center p-8 mt-8">
+                      <QuizIcon
+                        className="text-primary1 shadow-md rounded-full max-w-full mx-auto p-2 bg-white"
+                        style={{ fontSize: "50px" }}
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
-                        Angular
+                        Exam Management
                       </p>
                     </div>
                   </a>
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
-                    <div className="bg-emerald-500 shadow-lg rounded-lg text-center p-8 mt-8">
-                      <img
-                        alt="..."
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg"
+                  <a href="www.edyos.com">
+                    <div className="bg-orange-600 shadow-lg rounded-lg text-center py-8 px-6 mt-8">
+                      <AssignmentIcon
+                        className="text-orange-600 shadow-md rounded-full max-w-full mx-auto p-2 bg-white"
+                        style={{ fontSize: "50px" }}
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
-                        Vue.js
+                        Assignment Management
                       </p>
                     </div>
                   </a>
@@ -374,7 +358,6 @@ const Home = () => {
 
               <a
                 href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=nr-index"
-                target="_blank"
                 className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150 flex items-center"
               >
                 SignUp{" "}
@@ -386,22 +369,44 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </section>
 
-        <div className="container mx-auto px-4 pb-32 pt-48">
+      {/* Section 4 */}
+      <section className="mt-48 md:mt-0 pb-40 relative bg-gray-300">
+        <div
+          className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
+          style={{ transform: "translateZ(0)" }}
+        >
+          <svg
+            className="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              className="text-gray-300 fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div className="container mx-auto px-4 pt-24">
           <div className="items-center flex flex-wrap">
             <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
               <div className="md:pr-12">
-                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                  <i className="fas fa-file-alt text-xl"></i>
+                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-secondary1">
+                  <InfoIcon style={{ color: "#fff", fontSize: "35px" }} />
                 </div>
-                <h3 className="text-3xl font-semibold">
-                  Complex Documentation
-                </h3>
+                <h3 className="text-3xl font-semibold">Some Heading Here</h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  This extension comes a lot of fully coded examples that help
-                  you get started faster. You can adjust the colors and also the
-                  programming language. You can change the text and images and
-                  you're good to go.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit
+                  amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor.
                 </p>
                 <ul className="list-none mt-6">
                   <li className="py-2">
@@ -413,7 +418,7 @@ const Home = () => {
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Built by Developers for Developers
+                          Some List Text will Come Here.
                         </h4>
                       </div>
                     </div>
@@ -427,7 +432,7 @@ const Home = () => {
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Carefully crafted code for Components
+                          Some List Text will Come Here.
                         </h4>
                       </div>
                     </div>
@@ -441,7 +446,7 @@ const Home = () => {
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Dynamic Javascript Components
+                          Some List Text will Come Here.
                         </h4>
                       </div>
                     </div>
@@ -463,15 +468,55 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </section>
 
-        <div className="justify-center text-center flex flex-wrap mt-24">
+      {/* Section 5 */}
+      <section className="mt-48 md:mt-0 pb-40 relative bg-white">
+        <div
+          className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
+          style={{ transform: "translateZ(0)" }}
+        >
+          <svg
+            className="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              className="text-white fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div className="justify-center text-center flex flex-wrap pt-10">
           <div className="w-full md:w-6/12 px-12 md:px-4">
-            <h2 className="font-semibold text-4xl">Beautiful Example Pages</h2>
+            <h2 className="font-semibold text-4xl">Call To Action Text Here</h2>
             <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
-              Notus React is a completly new product built using our past
-              experience in web templates. Take the examples we made for you and
-              start playing with them.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor.
             </p>
+            <div className="mt-8 flex flex-wrap justify-center">
+              <div className="bg-gradient-to-br from-secondary1 to-secondary2 rounded hover:shadow-xl m-2">
+                <Button>
+                  <p className="text-xl px-3.5 text-white">Sign Up</p>
+                </Button>
+              </div>
+
+              <div className="bg-gradient-to-br from-secondary1 to-secondary2 rounded hover:shadow-xl m-2">
+                <div className="bg-white m-0.5">
+                  <Button>
+                    <p className="text-xl px-4 text-secondary1">Contact Us</p>
+                  </Button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
