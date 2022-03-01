@@ -260,7 +260,31 @@ const Home = () => {
               </div>
             </div>
           </div>
+        </div>
+      </section>
 
+      {/* Section 4 */}
+      <section className="mt-48 md:mt-0 pb-24 relative bg-gray-300">
+        <div
+          className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
+          style={{ transform: "translateZ(0)" }}
+        >
+          <svg
+            className="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              className="text-gray-300 fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div className="container mx-auto overflow-hidden pb-20">
           <div className="flex flex-wrap items-center pt-4">
             <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
               <div className="justify-center flex flex-wrap relative">
@@ -371,8 +395,8 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Section 4 */}
-      <section className="mt-48 md:mt-0 pb-40 relative bg-gray-300">
+      {/* Section 5 */}
+      <section className="mt-48 md:mt-0 pb-40 relative bg-white">
         <div
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
           style={{ transform: "translateZ(0)" }}
@@ -387,7 +411,7 @@ const Home = () => {
             y="0"
           >
             <polygon
-              className="text-gray-300 fill-current"
+              className="text-white fill-current"
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
@@ -470,50 +494,39 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Section 5 */}
-      <section className="mt-48 md:mt-0 pb-40 relative bg-white">
-        <div
-          className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
-          style={{ transform: "translateZ(0)" }}
-        >
-          <svg
-            className="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-            <polygon
-              className="text-white fill-current"
-              points="2560 0 2560 100 0 100"
-            ></polygon>
-          </svg>
-        </div>
-        <div className="justify-center text-center flex flex-wrap pt-10">
-          <div className="w-full md:w-6/12 px-12 md:px-4">
-            <h2 className="font-semibold text-4xl">Call To Action Text Here</h2>
-            <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor. Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit, sed do eiusmod tempor. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor. Lorem ipsum
-              dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-              tempor.
-            </p>
-            <div className="mt-8 flex flex-wrap justify-center">
-              <div className="bg-gradient-to-br from-secondary1 to-secondary2 rounded hover:shadow-xl m-2">
-                <Button>
-                  <p className="text-xl px-3.5 text-white">Sign Up</p>
-                </Button>
-              </div>
+      {/* Section 6 */}
+      <section className="mt-48 md:mt-0 relative z-50 bg-transparent">
+        <div className="container mx-auto w-10/12">
+          <div className="justify-center text-center flex flex-wrap rounded-2xl shadow-lg -mt-10 -mb-10 px-5 py-5 bg-cta-bg">
+            <div className="bg-white round opacity-80 p-6">
+              <div className="w-full md:w-6/12 mx-auto">
+                <h2 className="font-semibold text-4xl">
+                  Call To Action Text Here
+                </h2>
+                <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-500">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor. Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit, sed do eiusmod tempor. Lorem ipsum dolor sit
+                  amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor.
+                </p>
+                <div className="mt-8 flex flex-wrap justify-center">
+                  <div className="bg-gradient-to-br from-secondary1 to-secondary2 rounded hover:shadow-xl m-2">
+                    <Button>
+                      <p className="text-xl px-3.5 text-white">Sign Up</p>
+                    </Button>
+                  </div>
 
-              <div className="bg-gradient-to-br from-secondary1 to-secondary2 rounded hover:shadow-xl m-2">
-                <div className="bg-white m-0.5">
-                  <Button>
-                    <p className="text-xl px-4 text-secondary1">Contact Us</p>
-                  </Button>
+                  <div className="bg-gradient-to-br from-secondary1 to-secondary2 rounded hover:shadow-xl m-2">
+                    <div className="bg-white m-0.5">
+                      <Button>
+                        <p className="text-xl px-4 text-secondary1">
+                          Contact Us
+                        </p>
+                      </Button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

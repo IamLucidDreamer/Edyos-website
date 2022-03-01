@@ -15,6 +15,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-bg": "url('/src/assets/png/heroBg.png')",
+        "cta-bg": "url('/src/assets/png/ctaBg.png')",
       },
     },
   },
